@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+# The page used to live at /chinawebsite.html before it became the site root.
+[[redirects]]
+  from = "/chinawebsite.html"
+  to = "/"
+  status = 301
